@@ -1,14 +1,19 @@
 # webservice_python
 Webservice in python
 
-Webservice de consulta e inserção via json em Python
-As conexões estão substituidas por arquivos csv, substitu-as pela sua coneção e tabelas no banco. (Esta incluso também coneção com mysql)
+# Webservice de consulta(GET) e inserção(POST) via json em Python
+
+# install
+pip install - r requirements.txt
+
+
+# As conexões estão substituidas por arquivos csv, substitu-as pela sua coneção e tabelas no banco. (Esta incluso também coneção com mysql)
 
 Padrão de consulta json
 Inserir no Headers as Key login, password com value cnpj e senha
 
 no Body enviar o json no formato:
-
+<pre>
 
 {    
  "produto":[
@@ -120,4 +125,4 @@ no Body enviar o json no formato:
               ] 
           
 }
-
+</pre>
